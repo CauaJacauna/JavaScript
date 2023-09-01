@@ -3,4 +3,4 @@ var frutas = new Array ("Melão", "Limão", "Maçã", "Laranja", "Abacate", "Uva
 		document.write(frutas[i] + " tem "+ frutas[i].length + " letras <br>");
 	}
 
-//Fazer um exercício de Switch Case depois
+//Fazer um exercício de Switch Case
