@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conversão</title>
+	<script type="text/javascript">
+		function converter(){
+			var real = document.form.real.value;
+			var dollar = document.form.dollar.value;
+			alert("A conversão de " + real + " reais para dollar é: "+ (real/3.89)+ " dóllares");
+			alert("A conversão de " + dollar + " dóllares para reais é: "+ (real*3.89)+ " reais");
+		}
+	</script>
+</head>
+<body>
+	<form name="form">
+		<h1>Conversão de Real para Dóllar e Dollar para Real</h1>
+		Digite o valor em real: <input name="real">
+		Digite o valor em Dóllar: <input name="dollar">
+		<input type="button" name="OK" onclick="converter()" value="Confirmar">
+	</form>
+</body>
+</html>
