@@ -1,4 +1,5 @@
 document.write("Hello World!");
+console.log('Olá Mundo!');
 
 //Adicionar em arquivo diferente pelo PC
 
