@@ -4,19 +4,28 @@
 	<meta charset="utf-8">
 	<title>Maior número</title>
 	<script type="text/javascript">
+	<script>
+
 		function Comparar(){
 		var n1 = form.N1.value;
 		var n2 = form.N2.value;
 
-		if (n1 > n2) {
+		var result = n1 > n2 ? n1 : n2
+		alert(`O MAIOR É: ${result}`)
+
+		}
+
+		/*if (n1 > n2) {
 			document.write(n1 + ", o 1° número, é maior que: " + n2);
 
 		}else if (n2 > n1){
 			document.write(n2 + ", o 2° número, é maior que: " + n1);
 		}else{
 			document.write("Os dois números são iguais");
-		}
-	}
+		}*/
+	
+	
+
 	</script>
 </head>
 <body>
