@@ -1,4 +1,4 @@
-var eleitor = 21
+var eleitor = 21 //Altere a idade do eleitor
 console.log(`Você tem ${eleitor} anos`)
 
 if ( eleitor < 16) {

@@ -22,6 +22,6 @@ function calcularFibonacci(n) {
   return fibonacci;
 }
 
-const n = 10; // Substitua por quantos números da série você deseja calcular
+const n = 10; 
 const resultado = calcularFibonacci(n);
 console.log(resultado);
