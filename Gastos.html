@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <title>Gastos Mensais</title>
 </head>
 <body>
   <script>
         
-var salario = parseFloat(prompt("Digite o seu salário: "));
+var salario = Number(prompt("Digite o seu salário: "));
 
 var gastosMensais = [];
 
-for (let i = 1; i <= 8; i++) {
-  var gasto = parseFloat(prompt(`Digite o gasto mensal ${i}:`));
+for (var i = 1; i <= 8; i++) {
+  var gasto = Number(prompt(`Digite o gasto mensal ${i}:`));
   gastosMensais.push(gasto);
 }
 
