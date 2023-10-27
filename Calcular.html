@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var operacao = Number(prompt('Digite o número de qual operação você quer realizar:  <br>  1 - SOMA | 2 - SUBTRAÇÃO | 3 - MULTIPLICAÇÃO | 4 - DIVISÃO'))
+        var n1 = Number(prompt('Digite o N1: '))
+        var n2 = Number(prompt('Digite o N2: '))
+        var result = 0
+
+        switch (operacao - 1){
+        
+            case 0 : 
+                result = n1 + n2
+                document.write('Resultado: ' + result)
+            break;
+            case 1 : 
+                result = n1 - n2
+                document.write('Resultado: ' + result)
+            break;
+            case 2 : 
+                result = n1 * n2
+                document.write('Resultado: ' + result)
+            break;
+            case 3 : 
+                result = n1 / n2
+                document.write('Resultado: ' + result)
+            break;
+
+            default:
+
+            break;    
+            
+        }
+
+
+    </script>
+</body>
+</html>
