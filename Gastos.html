@@ -8,23 +8,23 @@
 <body>
   <script>
         
-var salario = Number(prompt("Digite o seu salário: "));
+var salario = Number(prompt("Digite o seu salário: "))
 
-var gastosMensais = [];
+var gastosMensais = []
 
 for (var i = 1; i <= 8; i++) {
-  var gasto = Number(prompt(`Digite o gasto mensal ${i}:`));
-  gastosMensais.push(gasto);
+  var gasto = Number(prompt(`Digite o gasto mensal ${i}:`))
+  gastosMensais.push(gasto)
 }
 
-var totalGastos = gastosMensais.reduce((acc, gasto) => acc + gasto, 0);
+var totalGastos = gastosMensais.reduce((acc, gasto) => acc + gasto, 0)
 
-var saldoRestante = salario - totalGastos;
+var saldoRestante = salario - totalGastos
 
 if (saldoRestante >= 0) {
-  document.write(`Seu saldo restante é de R$ ${saldoRestante.toFixed(2)}. Você está dentro do seu orçamento.`);
+  document.write(`Seu saldo restante é de R$ ${saldoRestante.toFixed(2)}. Você está dentro do seu orçamento.`)
 } else {
-  document.write(`Atenção! Você ultrapassou seu orçamento. Seu saldo negativo é de R$ ${saldoRestante.toFixed(2)}.`);
+  document.write(`Atenção! Você ultrapassou seu orçamento. Seu saldo negativo é de R$ ${saldoRestante.toFixed(2)}.`)
 }
   </script>
 </body>
