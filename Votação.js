@@ -1,3 +1,4 @@
+prompt('Digite a idade do eleitor: ')
 var eleitor = 21 //Altere a idade do eleitor
 console.log(`Você tem ${eleitor} anos`)
 
