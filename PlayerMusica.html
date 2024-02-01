@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+</head>
+<body>
+
+    <h1>Simple Music Player</h1>
+
+    <audio id="musicPlayer" controls>
+        <source src="caminho/da/sua/musica.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <script>
+        // Função para reproduzir ou pausar a música
+        function togglePlay() {
+            var musicPlayer = document.getElementById('musicPlayer');
+
+            if (musicPlayer.paused) {
+                musicPlayer.play();
+            } else {
+                musicPlayer.pause();
+            }
+        }
+
+        // Adiciona um ouvinte de evento ao botão de reprodução/pausa
+        document.getElementById('musicPlayer').addEventListener('play', function() {
+            console.log('Música iniciada');
+        });
+
+        document.getElementById('musicPlayer').addEventListener('pause', function() {
+            console.log('Música pausada');
+        });
+    </script>
