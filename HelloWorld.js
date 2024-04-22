@@ -26,3 +26,6 @@ var base      = 2;
           resultado = base;
         }
       }
+
+
+///// IMC ↓ 
